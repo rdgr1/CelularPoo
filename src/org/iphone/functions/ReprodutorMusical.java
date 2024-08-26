@@ -1,9 +1,7 @@
+package org.iphone.functions;
+
 public interface ReprodutorMusical {
-    void tocar();
-    void pausar();
     void selecionarMusica();
-
-    void tocarMusica(String musica);
-
+    void tocarMusica();
     void pausarMusica();
 }
